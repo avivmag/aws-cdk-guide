@@ -75,7 +75,7 @@ bucket = s3.Bucket(self, "MyBucket", bucket_name="my-bucket", versioned=True,
 #### [ Java ]
 
 ```
-Bucket bucket = Bucket.Builder.create(self, "MyBucket")
+Bucket bucket = Bucket.Builder.create(this, "MyBucket")
                       .bucketName("my-bucket")
                       .versioned(true)
                       .websiteRedirect(new RedirectTarget.Builder()
